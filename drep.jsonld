@@ -49,6 +49,11 @@
           },
           {
             "@type": "Link",
+            "label": "Gimbalabs Calendar",
+            "uri": "https://gimbalabs.com/calendar"
+          },
+          {
+            "@type": "Link",
             "label": "Gimbalabs Twitter",
             "uri": "https://x.com/gimbalabs" 
           }
