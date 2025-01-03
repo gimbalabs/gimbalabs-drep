@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+        "hashAlgorithm": "CIP100:hashAlgorithm",
+        "body": {
+            "@id": "CIP119:body",
+            "@context": {
+                "references": {
+                    "@id": "CIP119:references",
+                    "@container": "@set",
+                    "@context": {
+                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                        "Other": "CIP100:OtherReference",
+                        "label": "CIP100:reference-label",
+                        "uri": "CIP100:reference-uri"
+                    }
+                },
+                "paymentAddress": "CIP119:paymentAddress",
+                "givenName": "CIP119:givenName",
+                "image": {
+                    "@id": "CIP119:image",
+                    "@context": {
+                        "ImageObject": "https://schema.org/ImageObject"
+                    }
+                },
+                "objectives": "CIP119:objectives",
+                "motivations": "CIP119:motivations",
+                "qualifications": "CIP119:qualifications"
+            }
+        }
+    },
+    "hashAlgorithm": "blake2b-256",
+    "body": {
+        "paymentAddress": "addr1qxhcfs7ssp5wuvehxm7l2s9gpqxj5yc6ezguhl5zmj2mks8rkguk9nh40nys7rdnquvcsccxu93q7d76ajjxnnn02pvqdlvyam",
+        "givenName": "Gimbalabs",
+        "image": {
+            "@type": "ImageObject",
+            "contentUrl": "https://gimbalabs.com/gimbalabs-bg.jpg",
+        },
+        "objectives": "We advocate for pluralism, open source development, and educational outcomes. Our intention is to help create systems that work better than the status quo for more people, and that create sustainable opportunities for more people.",
+        "motivations": "Diverse ecosystems are more robust and resilient than those that are uniform and centralized. We expect Cardano to deliver on its highest promise of pushing power to the edges and opening new opportunities where they did not exist before.",
+        "qualifications": "Gimbalabs has been developing educational experiences and opening community spaces since 2020. We are currently practicing ways for people to work together at human-scales, at the dawn of this new age of decentralized, global governance.",
+        "references": [
+          {
+            "@type": "Link",
+            "label": "Gimbalabs Project Portfolio",
+            "uri": "https://gimbalabs.notion.site/ff0d7c3cd1634a42bf554693c7da408c?v=f57369dfe3ae4dd6abc993ca8531d0a6"
+          },
+          {
+            "@type": "Link",
+            "label": "Gimbalabs Twitter",
+            "uri": "https://x.com/gimbalabs" 
+          }
+        ]
+    }
+}
