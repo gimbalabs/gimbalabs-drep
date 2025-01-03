@@ -37,23 +37,24 @@
         "image": {
             "@type": "ImageObject",
             "contentUrl": "https://gimbalabs.com/gimbalabs-bg.jpg",
+	    "sha256": "0809c2be76dc4c73fee3572416a76498d6ee48e9faa724f84de86666f008f521"
         },
         "objectives": "We advocate for pluralism, open source development, and educational outcomes. Our intention is to help create systems that work better than the status quo for more people, and that create sustainable opportunities for more people.",
         "motivations": "Diverse ecosystems are more robust and resilient than those that are uniform and centralized. We expect Cardano to deliver on its highest promise of pushing power to the edges and opening new opportunities where they did not exist before.",
         "qualifications": "Gimbalabs has been developing educational experiences and opening community spaces since 2020. We are currently practicing ways for people to work together at human-scales, at the dawn of this new age of decentralized, global governance.",
         "references": [
           {
-            "@type": "Link",
+            "@type": "Other",
             "label": "Gimbalabs Project Portfolio",
             "uri": "https://gimbalabs.notion.site/ff0d7c3cd1634a42bf554693c7da408c?v=f57369dfe3ae4dd6abc993ca8531d0a6"
           },
           {
-            "@type": "Link",
+            "@type": "Other",
             "label": "Gimbalabs Calendar",
             "uri": "https://gimbalabs.com/calendar"
           },
           {
-            "@type": "Link",
+            "@type": "Other",
             "label": "Gimbalabs Twitter",
             "uri": "https://x.com/gimbalabs" 
           }
