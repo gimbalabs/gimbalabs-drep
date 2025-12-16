@@ -1,7 +1,7 @@
 # Test Cardano proposal for drep stuff
 
 **Proposal ID:** 8f54d021c6e6fcdd5a4908f10a7b092fa31cd94db2e809f2e06d7ffa4d78773d#5  
-**Final Vote:** Yes
+**Winner:** Yes
 
 ## Individual Rationales
 
